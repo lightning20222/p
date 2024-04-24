@@ -53,7 +53,23 @@ if [ "${list[$num]+x}" ]; then
 else 
     echo "Not found"
 fi
-
+#or
+echo "Enter the array elements (seperated by space)" 
+read -a e
+echo "Enter the number you want ot search"
+read s
+found=0
+for elements in  "${e[@]}"; do
+  if [ "$elements" = "$s" ]; then
+     found=1
+     break
+  fi
+done
+if [ $found -eq 1 ]; then 
+ echo "Element $s is present in list"
+else
+ echo "Element $s is not present"
+fi
 
 
 # 4. Write a script using sed command to replace all occurrences of particular word in given a file.
