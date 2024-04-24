@@ -287,4 +287,13 @@ printf "Number of lines containing '%s' in file '%s': %d\n", word, filename,
 count
 }
 
+# 15. Palindrome
+read -p "Enter a number: " num
 
+reverse=$(echo "$num" | rev)
+
+if [ "$num" = "$reverse" ]; then
+    echo "$num is a palindrome"
+else
+    echo "$num is not a palindrome"
+fi
