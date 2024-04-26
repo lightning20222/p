@@ -1,0 +1,16 @@
+1. Basic commands 
+
+            ipconfig
+            ifconfig
+            tracert 192.168.48.250(any pc ip)
+            tracert google.com
+            ping google.com
+            ping (any pc ip)
+            nslookup google.com
+            netstat
+            arp -a
+            hostname
+            host
+            tcpdump
+            ss
+            whois google.com
