@@ -1,4 +1,20 @@
 1. Basic commands 
+hostname
+ipconfig
+netsh wlan show interfaces
+ping www.google.com
+nslookup www.google.com
+route print
+arp -a
+netstat -a  
+tracert -h 5 www.google.com
+nbtstat -n
+
+
+
+
+
+___________________________________________________________________________________________________________________________________________________________________
 
             ipconfig
             ifconfig
